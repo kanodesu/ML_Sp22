@@ -24,7 +24,15 @@ X = data[['kinetic', 'spatial_dimension','reflection','pl', 'si', 'va', 'te', 'c
 #### Find cluster numbers
 From the inertia score plot, I think the ideal cluster numbers is range from 5 - 30.
 <img src="https://github.com/kanodesu/ML_Sp22/blob/main/final_assignment_3/img/Screen%20Shot%202022-05-02%20at%2019.59.21.png">
-So I tried from `range_n_clusters = [5, 8, 11, 14, 17, 21, 25, 29]`, and find out the best result is when n_clusters = 8.
-<img src="https://github.com/kanodesu/ML_Sp22/blob/main/final_assignment_3/img/Screen%20Shot%202022-05-02%20at%2019.42.46.png">
+So I tried from `range_n_clusters = [5, 8, 11, 14, 17, 21, 25, 29]`, and find out the best result is when n_clusters = 11.
+<img src="https://github.com/kanodesu/ML_Sp22/blob/main/final_assignment_3/Screen%20Shot%202022-05-08%20at%2022.33.48.png">
+
+#### Results
+Some of the clusters with images:
+<img src="https://github.com/kanodesu/ML_Sp22/blob/main/final_assignment_3/Frame%203.png">
+<img src="https://github.com/kanodesu/ML_Sp22/blob/main/final_assignment_3/Frame%202.png">
+Cluster 8 is my favourite cluster, I like these contemporary/abstract artworks that kind of showed the opposite of life.
+
+
 
 
